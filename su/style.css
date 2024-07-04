@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #F7EAEA;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    /*justify-content: center;*/
+    width: 90%;
+    margin: 50px auto;
+   
+}
+.btn{
+    background-color: rgb(72, 72, 239);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(92, 106, 101);
+    cursor: pointer;
+    transition: o.8s;
+}
+#highlight_section{
+    width: 70%;
+    margin: 50px auto;
+}
+#highlight_section > h2{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 8px #b87e7e;
+}
+#highlight_section > p{
+    width: 60%;
+    margin: 0 auto;
+    color: #706F6F;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.byNow_btn{
+    display: flex;
+    justify-content: center;
+}
+#imgCover_Section{
+    width: 70%;
+    margin: 50px auto;
+}
+#imgCover_Section img{
+    width: 100%;
+}
+
+#search_section{
+    width: 70%;
+    margin: 50px auto;
+}
+#search_section > h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+#searchContainer{
+    border: 2px solid black;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #F5F5DC;
+    display: flex;
+    
+}
+.searchBar{
+    width: 70%;
+}
+.searchBar input[type="text"]{
+    padding: 15px;
+    border: none;
+    outline: none;
+    width: 60%;
+    background-color: #F5F5DC;
+}
+.searchButton{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}
+#Card_Section{
+    width: 80%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+} 
+.card{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+.card_img{
+    background: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.card_img:hover{
+    background-color: rgb(188, 180, 180);
+    transition: 0.8s;
+}
+.card_img img{
+    width: 100%;
+    height: 300px;
+}
+.cardTitle{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #403F3F;
+}
+.cardDecraption{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #866F6F;
+}
+.card_prize{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: #403F3F;
+    margin-bottom: 20px;
+}
+.card_btn{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+#footer_Section{
+    background-color: #E4E0EC;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+#all_items{
+ 
+    margin-top: 100px;
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 120px;
+}
+#Footer_title{
+   
+    width: 70%;
+}
+#Footer_title >h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+#Footer_title >p{
+    color:#706F6F;
+    font-weight: 600;
+    font-size: 18px;
+}
+#icon_And_btn{
+    display: flex;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 40px;
+}
+hr{
+    color: gray;
+}
+#footer_Section_two{
+    background-color: #E4E0EC;
+    display: flex;
+    margin: 0 auto;
+    gap: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    padding: 80px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.fouth_div {
+  width: 100%;
+  align-items: center;
+  margin-left: 10%;
+}
+.fouth_div p{
+    color: black;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+#copysection{
+    background-color:#F7EAEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 14px;
+}
