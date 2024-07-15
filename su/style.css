@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+
+}
+
+body{
+    background-color: rgb(250, 233, 241);
+}
+
+header{
+   
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    background-color: rgb(39, 77, 244);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: rgb(39, 39, 145);
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+#highlights-section{
+    
+    width: 70%;
+    margin: 50px auto;
+
+}
+#highlights-section > h2 {
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 2px 2px 8px #e99f9f;
+    margin-bottom: 25px;
+}
+#highlights-section > p {
+    margin: 0 auto;
+    width: 50%;
+    color: rgb(152, 91, 91);
+    text-align: center;
+    margin-bottom: 25%;
+}
+#buy-now-btn{
+    display: flex;
+    justify-content: center;
+}
+#cover-image-section{
+    width: 70%;
+    margin: 50px auto;
+}
+#cover-image-section img{
+    width: 100%;
+}
+
+#search-section{
+    width: 70%;
+    margin: 50px auto;
+}
+
+#search-section > h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+#search-container{
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color:rgb(253, 246, 192);
+    display: flex;
+    justify-content: space-between;
+}
+#search-bar{
+    width: 70%;
+}
+#search-bar > input[type="text"]{
+    padding: 15px;
+    border: none;
+    outline: none;
+    width: 60%;
+    background-color: rgb(253, 246, 192);
+}
+#search-btn{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}
+
+#card-section{
+    width: 50%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.card{
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+}
+.card-image{
+    background-color: rgba(255, 255, 255, 0.94);
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.card-image:hover{
+    background-color: rgb(243, 190, 214);
+    transition: 0.8s;
+}
+.card-image img{
+    width: 100%;
+    height: 300px;
+}
+.card-title{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.card-description{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(181, 151, 151);
+
+}
+.card-price{
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.card-btn{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#loading-section{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.hidden {
+    display: none;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #514b82;
+    -webkit-mask: radial-gradient(circle closest-side at 50% 40%,#0000 94%, #000);
+    transform-origin: 50% 40%;
+    animation: l25 1s infinite linear;
+  }
+  @keyframes l25 {
+    100% {transform: rotate(1turn)}
+  }
+  #footer_Section{
+    background-color: #E4E0EC;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+#all_items{
+ 
+    margin-top: 100px;
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 120px;
+}
+#Footer_title{
+   
+    width: 70%;
+}
+#Footer_title >h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+#Footer_title >p{
+    color:#706F6F;
+    font-weight: 600;
+    font-size: 18px;
+}
+#icon_And_btn{
+    display: flex;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 40px;
+    
+}
+#icon{
+    font-size: 30px;
+    margin: 0 auto;
+    margin-top: 5px;
+
+}
+hr{
+    color: gray;
+}
+#footer_Section_two{
+    background-color: #E4E0EC;
+    display: flex;
+    margin: 0 auto;
+    gap: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    padding: 80px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.fouth_div {
+  width: 100%;
+  align-items: center;
+  margin-left: 10%;
+}
+.fouth_div p{
+    color: black;
+    font-weight: bolder;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: 400;
+}

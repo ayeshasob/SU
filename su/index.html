@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY API STORE</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/43c214a84d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1>My API Store</h1>
+        <button class="btn">Sign Up</button>
+    </header>
+
+    <main>
+        <!-- highlights section -->
+        <section id="highlights-section">
+            <h2>Apple Iphone 13 Pro Max</h2>
+            <p>
+                The iPhone is a smartphone made by Apple that combines a computer, iPod, digital camera and cellular
+                phone into one device with a touchscreen interface. The iPhone runs the iOS operating system, and in
+                2021 when the iPhone 13 was introduced, it offered up to 1 TB of storage and a 12-megapixel camera.
+            </p>
+            <div id="buy-now-btn">
+                <button class="btn">Buy Now</button>
+            </div>
+        </section>
+        <!-- cover image section -->
+        <section id="cover-image-section">
+            <img src="./cover-image.png" alt="iphone image">
+        </section>
+        <!-- search section -->
+        <section id="search-section">
+            <h2>Search Your Phone</h2>
+
+            <div id="search-container">
+                <div id="search-bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input id="search-input-field" type="text" placeholder="Search Your Phone" />
+                </div>
+                <div id="search-btn">
+                    <button onclick="handleSearch()" class="btn">Search</button>
+                </div>
+            </div>
+
+        </section>
+        <!--Loading section-->
+        <section id="loading-section">
+            <div id="loader-animation" class="loader hidden">
+
+            </div>
+        </section>
+        <!-- card section -->
+        <section id="card-section">
+            <!--card-->
+            <div class="card">
+                <div class="card-image">
+                    <img src="./iphone-img.png" alt="iphone image" />
+                </div>
+                <h3 class="card-title"> Iphone 13 Pro Max</h3>
+                <p class="card-description">
+                    There are many variations of passages of available, but the majority have suffered
+                </p>
+                <div class="card-price">
+                    <span>$</span>
+                    <span id="card-item-price">999</span>
+                </div>
+                <div class="card-btn">
+                    <button class="btn">Show Details</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./iphone-img.png" alt="iphone image" />
+                </div>
+                <h3 class="card-title"> Iphone 13 Pro Max</h3>
+                <p class="card-description">
+                    There are many variations of passages of available, but the majority have suffered
+                </p>
+                <div class="card-price">
+                    <span>$</span>
+                    <span id="card-item-price">999</span>
+                </div>
+                <div class="card-btn">
+                    <button class="btn">Show Details</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./iphone-img.png" alt="iphone image" />
+                </div>
+                <h3 class="card-title"> Iphone 13 Pro Max</h3>
+                <p class="card-description">
+                    There are many variations of passages of available, but the majority have suffered
+                </p>
+                <div class="card-price">
+                    <span>$</span>
+                    <span id="card-item-price">999</span>
+                </div>
+                <div class="card-btn">
+                    <button class="btn">Show Details</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./iphone-img.png" alt="iphone image" />
+                </div>
+                <h3 class="card-title"> Iphone 13 Pro Max</h3>
+                <p class="card-description">
+                    There are many variations of passages of available, but the majority have suffered
+                </p>
+                <div class="card-price">
+                    <span>$</span>
+                    <span id="card-item-price">999</span>
+                </div>
+                <div class="card-btn">
+                    <button class="btn">Show Details</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./iphone-img.png" alt="iphone image" />
+                </div>
+                <h3 class="card-title"> Iphone 13 Pro Max</h3>
+                <p class="card-description">
+                    There are many variations of passages of available, but the majority have suffered
+                </p>
+                <div class="card-price">
+                    <span>$</span>
+                    <span id="card-item-price">999</span>
+                </div>
+                <div class="card-btn">
+                    <button class="btn">Show Details</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./iphone-img.png" alt="iphone image" />
+                </div>
+                <h3 class="card-title"> Iphone 13 Pro Max</h3>
+                <p class="card-description">
+                    There are many variations of passages of available, but the majority have suffered
+                </p>
+                <div class="card-price">
+                    <span>$</span>
+                    <span id="card-item-price">999</span>
+                </div>
+                <div class="card-btn">
+                    <button class="btn">Show Details</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section id="footer_Section">
+        <div id="all_items">
+            <div id="Footer_title">
+                <h2 class="title">My API Store</h2>
+                <p class="decripation">Learn How to use API Store</p>
+            </div>
+            <div id="icon_And_btn">
+                <div id="icon">
+                    <a href="https://www.linkedin.com/in/topubhuyan/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/xvy45?tab=repositories"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://x.com/TopuBhuyan"></a> <i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <div>
+                    <button class="btn">Join Premium</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- footer section two -->
+    <section id="footer_Section_two">
+        <div class="fouth_div">
+            <p>Products</p>
+            <p>Browse Jobs</p>
+            <p>Remote Jobs</p>
+            <p>Products</p>
+            <p>Company Jobs</p>
+            <p>Startup Jobs</p>
+        </div>
+        <div class="fouth_div">
+            <p>Products</p>
+            <p>Browse Jobs</p>
+            <p>Remote Jobs</p>
+            <p>Products</p>
+            <p>Company Jobs</p>
+            <p>Startup Jobs</p>
+        </div>
+        <div class="fouth_div">
+            <p>Products</p>
+            <p>Browse Jobs</p>
+            <p>Remote Jobs</p>
+            <p>Products</p>
+            <p>Company Jobs</p>
+            <p>Startup Jobs</p>
+        </div>
+        <div class="fouth_div">
+            <p>Products</p>
+            <p>Browse Jobs</p>
+            <p>Remote Jobs</p>
+            <p>Products</p>
+            <p>Company Jobs</p>
+            <p>Startup Jobs</p>
+        </div>
+    </section>
+   
+    <script src="./index.js"></script>
+</body>
+
+</html>
